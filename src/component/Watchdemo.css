@@ -1,0 +1,211 @@
+.watchdemomain{
+    width: 100%;
+    background-color: rgb(244,245,247);
+    display: flex;
+    justify-content: center;
+    padding: 7vmax;
+    margin-top: 6vmax;
+}
+.watchdemomain .watchdemoleft{
+  width: 30%;
+}
+.watchdemomain .watchdemoright{
+     width: 40%;
+}
+.watchdemomain .watchdemoright h6{
+    font-size: 0.9vmax;
+    color: gray;
+    font-weight: 400;
+   
+}
+.watchdemomain .watchdemoright h4{
+    font-size: 2.5vmax;
+    color: rgb(3, 3, 94);
+    margin-top: 1.5vmax;
+}
+.watchdemomain .watchdemoright h5{
+    width: 80%;
+    font-size: 1.3vmax;
+    color: gray;
+    font-weight: 400;
+    margin-top: 1.5vmax;
+}
+.watchdemomain .watchdemoright button{
+border: none;
+background-color: rgb(0,82,204);
+color: white;
+padding: 0.5vmax 2vmax;
+font-size: 1.2vmax;
+border-radius: 0.3vmax;
+margin-top: 1.5vmax;
+}
+
+@media (max-width:600px) {
+    .watchdemomain{
+        align-items: center;
+        padding: 4vmax;
+        flex-direction: column;
+    }
+    .watchdemomain .watchdemoleft{
+        width: 90%;
+    }
+    .watchdemomain .watchdemoleft img{
+      width: 100%;
+    }
+    .watchdemomain .watchdemoright{
+         width: 90%;
+         margin-top: 2vmax;
+    }
+    .watchdemomain .watchdemoright h6{
+        font-size: 1.5vmax;
+    }
+    .watchdemomain .watchdemoright h4{
+        font-size: 3.5vmax;
+    }
+    .watchdemomain .watchdemoright h5{
+        width: 100%;
+        font-size: 1.8vmax;
+    }
+    .watchdemomain .watchdemoright button{
+    font-size: 1.7vmax;
+    }
+}
+
+@media (min-width:600px) and (max-width:950px) {
+    .watchdemomain{
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 7vmax;
+    }
+    .watchdemomain .watchdemoleft{
+        width: 40%;
+    }
+    .watchdemomain .watchdemoleft img{
+      width: 90%;
+    }
+    .watchdemomain .watchdemoright{
+         width: 40%;
+         margin-top: 2vmax;
+    }
+    .watchdemomain .watchdemoright h6{
+        font-size: 1.5vmax;
+    }
+    .watchdemomain .watchdemoright h4{
+        font-size: 2.5vmax;
+    }
+    .watchdemomain .watchdemoright h5{
+        width: 100%;
+        font-size: 1.5vmax;
+    }
+    .watchdemomain .watchdemoright button{
+    font-size: 1.2vmax;
+    }
+}
+
+
+
+.watchdemomain2{
+    width: 100%;
+    background-color: rgb(244,245,247);
+    display: flex;
+    justify-content: center;
+    padding: 7vmax;
+    margin-top: 3vmax;
+}
+.watchdemomain2 .watchdemoleft{
+  width: 30%;
+}
+.watchdemomain2 .watchdemoleft img{
+    width: 70%;
+  }
+.watchdemomain2 .watchdemoright{
+     width: 40%;
+}
+.watchdemomain2 .watchdemoright h6{
+    font-size: 0.9vmax;
+    color: gray;
+    font-weight: 400;
+   
+}
+.watchdemomain2 .watchdemoright h4{
+    font-size: 2.5vmax;
+    color: rgb(3, 3, 94);
+    margin-top: 1.5vmax;
+}
+.watchdemomain2 .watchdemoright h5{
+    font-size: 1.3vmax;
+    color: gray;
+    font-weight: 400;
+    margin-top: 1.5vmax;
+}
+.watchdemomain2 .watchdemoright button{
+border: none;
+background-color: rgb(0,82,204);
+color: white;
+padding: 0.5vmax 2vmax;
+font-size: 1.2vmax;
+border-radius: 0.3vmax;
+margin-top: 1.5vmax;
+}
+
+@media (max-width:600px) {
+    .watchdemomain2{
+        align-items: center;
+        padding: 4vmax;
+        flex-direction: column;
+    }
+    .watchdemomain2 .watchdemoleft{
+        width: 90%;
+    }
+    .watchdemomain2 .watchdemoleft img{
+      width: 100%;
+    }
+    .watchdemomain2 .watchdemoright{
+         width: 90%;
+         margin-top: 2vmax;
+    }
+    .watchdemomain2 .watchdemoright h6{
+        font-size: 1.5vmax;
+    }
+    .watchdemomain2 .watchdemoright h4{
+        font-size: 3.5vmax;
+    }
+    .watchdemomain2 .watchdemoright h5{
+        width: 100%;
+        font-size: 1.8vmax;
+    }
+    .watchdemomain2 .watchdemoright button{
+    font-size: 1.7vmax;
+    }
+}
+
+@media (min-width:600px) and (max-width:950px) {
+    .watchdemomain2{
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 7vmax;
+    }
+    .watchdemomain2 .watchdemoleft{
+        width: 40%;
+    }
+    .watchdemomain2 .watchdemoleft img{
+      width: 90%;
+    }
+    .watchdemomain2 .watchdemoright{
+         width: 40%;
+         margin-top: 2vmax;
+    }
+    .watchdemomain2 .watchdemoright h6{
+        font-size: 1.5vmax;
+    }
+    .watchdemomain2 .watchdemoright h4{
+        font-size: 2.5vmax;
+    }
+    .watchdemomain2 .watchdemoright h5{
+        width: 100%;
+        font-size: 1.5vmax;
+    }
+    .watchdemomain2 .watchdemoright button{
+    font-size: 1.2vmax;
+    }
+}

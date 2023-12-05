@@ -1,0 +1,567 @@
+.Enterprise{
+          width: 100%;
+          height: auto;
+}
+.Enterprise .enterprise{
+          width: 100%;
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+}
+.Enterprise .enterprise .enterpriseTop{
+          width: 80%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 10vmax;
+          font-family: Arial, Helvetica, sans-serif;
+}
+.Enterprise .enterprise .enterpriseTop p{
+          display: flex;
+          width: 80%;
+          height:5vmax;
+          font-size:0.8vmax;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+}
+.Enterprise .enterprise .enterpriseTop p h1{
+ font-size: 2vmax;
+ font-weight: bolder;
+ color: #000000cc;
+}
+.Enterprise .enterprise .Emedium{
+          width: 90%;
+          height:45vmax;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+}
+.Enterprise .enterprise .Emedium .left{
+          width: 70%;
+          height:40vmax;
+          display: flex;
+          object-fit: contain;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: flex-end;
+}
+.Enterprise .enterprise .Emedium .left img{
+          width: 100%;
+          height:40vmax;
+}
+.Enterprise .enterprise .Emedium .right{
+          width: 30%;
+          height:40vmax;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+}
+.Enterprise .enterprise .Emedium .right .content1{
+          width: 80%;
+          height: 12vmax;
+          display: flex;
+          cursor: pointer;
+          flex-direction: row;
+          background-color: cornflowerblue;
+          box-shadow: 2px 2px 10px rgb(174, 174, 174);
+}
+.Enterprise .enterprise .Emedium .right .content1:hover{
+          box-shadow: 2px 2px 15px rgb(43, 43, 43);
+}
+.Enterprise .enterprise .Emedium .right .content1 .line{
+          width: 7%;
+          height: 12vmax;
+}
+.Enterprise .enterprise .Emedium .right .content1:hover .line,
+.Enterprise .enterprise .Emedium .right .content2:hover .line,
+.Enterprise .enterprise .Emedium .right .content3:hover .line {
+  background-color: #12009b; 
+}
+.Enterprise .enterprise .Emedium2 .right .content1:hover,
+.Enterprise .enterprise .Emedium2 .right .content2:hover,
+.Enterprise .enterprise .Emedium2 .right .content3:hover {
+  box-shadow: 2px 2px 15px rgb(43, 43, 43);
+}
+.Enterprise .enterprise .Emedium2 .right .content1:hover .line,
+.Enterprise .enterprise .Emedium2 .right .content2:hover .line,
+.Enterprise .enterprise .Emedium2 .right .content3:hover .line {
+          background-color: #12009b; 
+}
+.Enterprise .enterprise .Emedium .right .content1  .text{
+          width: 93%;
+          height: 12vmax;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-direction: column;
+          background: #fff;
+}
+.Enterprise .enterprise .Emedium .right .content1  .text h1{
+          font-size: 1.5vmax;
+          font-family: Arial, Helvetica, sans-serif;
+          letter-spacing: -1px;
+          font-weight:bolder;
+}
+.Enterprise .enterprise .Emedium .right .content2{
+          width: 80%;
+          height: 12vmax;
+          display: flex;
+          cursor: pointer;
+          flex-direction: row;
+          box-shadow: 2px 2px 10px rgb(174, 174, 174);
+          background-color: cornflowerblue;
+}
+.Enterprise .enterprise .Emedium .right .content2:hover{
+          box-shadow: 2px 2px 15px rgb(43, 43, 43);
+}
+.Enterprise .enterprise .Emedium .right .content2 .line{
+          width: 7%;
+          height: 12vmax;
+}
+.Enterprise .enterprise .Emedium .right .content2  .text{
+          width: 93%;
+          height: 12vmax;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-direction: column;
+          background: #fff;
+}
+.Enterprise .enterprise .Emedium .right .content2  .text h1{
+          font-size: 1.5vmax;
+          font-family: Arial, Helvetica, sans-serif;
+          letter-spacing: -1px;
+          font-weight:bolder;
+}
+.Enterprise .enterprise .Emedium .right .content3{
+          width: 80%;
+          height: 12vmax;
+          display: flex;
+          cursor: pointer;
+          flex-direction: row;
+          box-shadow: 2px 2px 10px rgb(174, 174, 174);
+          background-color: cornflowerblue;
+}
+.Enterprise .enterprise .Emedium .right .content3:hover{
+          box-shadow: 2px 2px 15px rgb(43, 43, 43);
+}
+.Enterprise .enterprise .Emedium .right .content3 .line{
+          width: 7%;
+          height: 12vmax;
+}
+.Enterprise .enterprise .Emedium .right .content3  .text{
+          width: 93%;
+          height: 12vmax;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-direction: column;
+          background: #fff;
+}
+.Enterprise .enterprise .Emedium .right .content3  .text h1{
+          font-size: 1.5vmax;
+          font-family: Arial, Helvetica, sans-serif;
+          letter-spacing: -1px;
+          font-weight:bolder;
+}
+/* ------------------------------- */
+
+.Enterprise .enterprise .Emedium2{
+          width: 90%;
+          height:45vmax;
+          display: flex;
+          flex-direction: row-reverse;
+          justify-content: space-between;
+          align-items: center;
+}
+.Enterprise .enterprise .Emedium2 .left{
+          width: 70%;
+          height:40vmax;
+          display: flex;
+          object-fit: contain;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+}
+.Enterprise .enterprise .Emedium2 .left img{
+          width: 100%;
+          height:40vmax;
+}
+.Enterprise .enterprise .Emedium2 .right{
+          width: 30%;
+          height:40vmax;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+}
+.Enterprise .enterprise .Emedium2 .right .content1{
+          width: 80%;
+          height: 12vmax;
+          display: flex;
+          cursor: pointer;
+          flex-direction: row;
+          background-color: cornflowerblue;
+          box-shadow: 2px 2px 10px rgb(174, 174, 174);
+}
+.Enterprise .enterprise .Emedium2 .right .content1:hover{
+          box-shadow: 2px 2px 15px rgb(43, 43, 43);
+}
+.Enterprise .enterprise .Emedium2 .right .content1 .line{
+          width: 7%;
+          height: 12vmax;
+}
+.Enterprise .enterprise .Emedium2 .right .content1  .text{
+          width: 93%;
+          height: 12vmax;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-direction: column;
+          background: #fff;
+}
+.Enterprise .enterprise .Emedium2 .right .content1  .text h1{
+          font-size: 1.5vmax;
+          font-family: Arial, Helvetica, sans-serif;
+          letter-spacing: -1px;
+          font-weight:bolder;
+}
+.Enterprise .enterprise .Emedium2 .right .content2{
+          width: 80%;
+          height: 12vmax;
+          display: flex;
+          cursor: pointer;
+          flex-direction: row;
+          box-shadow: 2px 2px 10px rgb(174, 174, 174);
+          background-color: cornflowerblue;
+}
+.Enterprise .enterprise .Emedium2 .right .content2:hover{
+          box-shadow: 2px 2px 15px rgb(43, 43, 43);
+}
+.Enterprise .enterprise .Emedium2 .right .content2 .line{
+          width: 7%;
+          height: 12vmax;
+}
+.Enterprise .enterprise .Emedium2 .right .content2  .text{
+          width: 93%;
+          height: 12vmax;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-direction: column;
+          background: #fff;
+}
+.Enterprise .enterprise .Emedium2 .right .content2  .text h1{
+          font-size: 1.5vmax;
+          font-family: Arial, Helvetica, sans-serif;
+          letter-spacing: -1px;
+          font-weight:bolder;
+}
+.Enterprise .enterprise .Emedium2 .right .content3{
+          width: 80%;
+          height: 12vmax;
+          display: flex;
+          cursor: pointer;
+          flex-direction: row;
+          box-shadow: 2px 2px 10px rgb(174, 174, 174);
+          background-color: cornflowerblue;
+}
+.Enterprise .enterprise .Emedium2 .right .content3:hover{
+          box-shadow: 2px 2px 15px rgb(43, 43, 43);
+}
+.Enterprise .enterprise .Emedium2 .right .content3 .line{
+          width: 7%;
+          height: 12vmax;
+}
+.Enterprise .enterprise .Emedium2 .right .content3  .text{
+          width: 93%;
+          height: 12vmax;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-direction: column;
+          background: #fff;
+}
+.Enterprise .enterprise .Emedium2 .right .content3  .text h1{
+          font-size: 1.5vmax;
+          font-family: Arial, Helvetica, sans-serif;
+          letter-spacing: -1px;
+          font-weight:bolder;
+}
+
+
+/* ---------------Media-Querry------------------ */
+@media (max-width:600px) {
+          .Enterprise{
+                    width: 100%;
+                    height: auto;
+          }
+          .Enterprise .enterprise{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+          }
+          .Enterprise .enterprise .enterpriseTop{
+                    width: 80%;
+                    height: 20vmax;
+          }
+          .Enterprise .enterprise .enterpriseTop p{
+                    width: 100%;
+                    height:10vmax;
+                    font-size:1.7vmax;
+          }
+          .Enterprise .enterprise .enterpriseTop p h1{
+           font-size: 2.5vmax;
+           text-align: center;
+          }
+          .Enterprise .enterprise .Emedium{
+                    width: 90%;
+                    height:auto;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: center;
+          }
+
+          .Enterprise .enterprise .Emedium .left{
+                    width: 90%;
+                    height:40vmax;
+          }
+          .Enterprise .enterprise .Emedium .left img{
+                    width: 100%;
+                    height:40vmax;
+          }
+          .Enterprise .enterprise .Emedium .right{
+                    width: 90%;
+                    height:40vmax;
+          }
+          .Enterprise .enterprise .Emedium .right .content1{
+                    width: 100%;
+                    height: 12vmax;
+          }
+          .Enterprise .enterprise .Emedium .right .content1  .text h1{
+                    font-size: 2vmax;
+          }
+          .Enterprise .enterprise .Emedium .right .content1  .text p{
+                    font-size: 1.3vmax;
+          }
+          .Enterprise .enterprise .Emedium .right .content2{
+                    width: 100%;
+                    height: 12vmax;
+          }
+          .Enterprise .enterprise .Emedium .right .content2  .text h1{
+                    font-size: 2vmax;
+          }
+          .Enterprise .enterprise .Emedium .right .content2  .text p{
+                    font-size: 1.3vmax;
+          }
+          .Enterprise .enterprise .Emedium .right .content3{
+                    width: 100%;
+                    height: 12vmax;
+          }
+          .Enterprise .enterprise .Emedium .right .content3  .text h1{
+                    font-size: 2vmax;
+          }
+          .Enterprise .enterprise .Emedium .right .content3  .text p{
+                    font-size: 1.3vmax;
+          }
+
+          /* ------------ */
+          .Enterprise .enterprise .Emedium2{
+                    width: 90%;
+                    height:auto;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: center;
+          }
+
+          .Enterprise .enterprise .Emedium2 .left{
+                    width: 90%;
+                    height:40vmax;
+          }
+          .Enterprise .enterprise .Emedium2 .left img{
+                    width: 100%;
+                    height:40vmax;
+          }
+          .Enterprise .enterprise .Emedium2 .right{
+                    width: 90%;
+                    height:40vmax;
+          }
+          .Enterprise .enterprise .Emedium2 .right .content1{
+                    width: 100%;
+                    height: 12vmax;
+          }
+          .Enterprise .enterprise .Emedium2 .right .content1  .text h1{
+                    font-size: 2vmax;
+          }
+          .Enterprise .enterprise .Emedium2 .right .content1  .text p{
+                    font-size: 1.3vmax;
+          }
+          .Enterprise .enterprise .Emedium2 .right .content2{
+                    width: 100%;
+                    height: 12vmax;
+          }
+          .Enterprise .enterprise .Emedium2 .right .content2  .text h1{
+                    font-size: 2vmax;
+          }
+          .Enterprise .enterprise .Emedium2 .right .content2  .text p{
+                    font-size: 1.3vmax;
+          }
+          .Enterprise .enterprise .Emedium2 .right .content3{
+                    width: 100%;
+                    height: 12vmax;
+          }
+          .Enterprise .enterprise .Emedium2 .right .content3  .text h1{
+                    font-size: 2vmax;
+          }
+          .Enterprise .enterprise .Emedium2 .right .content3  .text p{
+                    font-size: 1.3vmax;
+          }
+
+
+}
+
+/* ---------- */
+@media (min-width:600px) and (max-width:850px) {
+          .Enterprise{
+                    width: 100%;
+                    height: auto;
+          }
+          .Enterprise .enterprise{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+          }
+          .Enterprise .enterprise .enterpriseTop{
+                    width: 80%;
+                    height: 20vmax;
+          }
+          .Enterprise .enterprise .enterpriseTop p{
+                    width: 100%;
+                    height:10vmax;
+                    font-size:1.7vmax;
+          }
+          .Enterprise .enterprise .enterpriseTop p h1{
+           font-size: 2.5vmax;
+           text-align: center;
+          }
+          .Enterprise .enterprise .Emedium{
+                    width: 90%;
+                    height:auto;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: center;
+          }
+
+          .Enterprise .enterprise .Emedium .left{
+                    width: 90%;
+                    height:40vmax;
+          }
+          .Enterprise .enterprise .Emedium .left img{
+                    width: 100%;
+                    height:40vmax;
+          }
+          .Enterprise .enterprise .Emedium .right{
+                    width: 90%;
+                    height:40vmax;
+          }
+          .Enterprise .enterprise .Emedium .right .content1{
+                    width: 100%;
+                    height: 12vmax;
+          }
+          .Enterprise .enterprise .Emedium .right .content1  .text h1{
+                    font-size: 2vmax;
+          }
+          .Enterprise .enterprise .Emedium .right .content1  .text p{
+                    font-size: 1.3vmax;
+          }
+          .Enterprise .enterprise .Emedium .right .content2{
+                    width: 100%;
+                    height: 12vmax;
+          }
+          .Enterprise .enterprise .Emedium .right .content2  .text h1{
+                    font-size: 2vmax;
+          }
+          .Enterprise .enterprise .Emedium .right .content2  .text p{
+                    font-size: 1.3vmax;
+          }
+          .Enterprise .enterprise .Emedium .right .content3{
+                    width: 100%;
+                    height: 12vmax;
+          }
+          .Enterprise .enterprise .Emedium .right .content3  .text h1{
+                    font-size: 2vmax;
+          }
+          .Enterprise .enterprise .Emedium .right .content3  .text p{
+                    font-size: 1.3vmax;
+          }
+
+          /* ------------ */
+          .Enterprise .enterprise .Emedium2{
+                    width: 90%;
+                    height:auto;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: center;
+          }
+
+          .Enterprise .enterprise .Emedium2 .left{
+                    width: 90%;
+                    height:40vmax;
+          }
+          .Enterprise .enterprise .Emedium2 .left img{
+                    width: 100%;
+                    height:40vmax;
+          }
+          .Enterprise .enterprise .Emedium2 .right{
+                    width: 90%;
+                    height:40vmax;
+          }
+          .Enterprise .enterprise .Emedium2 .right .content1{
+                    width: 100%;
+                    height: 12vmax;
+          }
+          .Enterprise .enterprise .Emedium2 .right .content1  .text h1{
+                    font-size: 2vmax;
+          }
+          .Enterprise .enterprise .Emedium2 .right .content1  .text p{
+                    font-size: 1.3vmax;
+          }
+          .Enterprise .enterprise .Emedium2 .right .content2{
+                    width: 100%;
+                    height: 12vmax;
+          }
+          .Enterprise .enterprise .Emedium2 .right .content2  .text h1{
+                    font-size: 2vmax;
+          }
+          .Enterprise .enterprise .Emedium2 .right .content2  .text p{
+                    font-size: 1.3vmax;
+          }
+          .Enterprise .enterprise .Emedium2 .right .content3{
+                    width: 100%;
+                    height: 12vmax;
+          }
+          .Enterprise .enterprise .Emedium2 .right .content3  .text h1{
+                    font-size: 2vmax;
+          }
+          .Enterprise .enterprise .Emedium2 .right .content3  .text p{
+                    font-size: 1.3vmax;
+          }
+
+
+}

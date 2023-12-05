@@ -1,0 +1,60 @@
+.Platformsecondmain{
+    width: 100%;
+    margin-top: 4vmax;
+}
+.Platformsecondmain .Platformsecond{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Platformsecondmain .Platformsecond h2{
+  width: 60%;
+  font-size: 2.5vmax;
+  color: rgb(37,56,88);
+  text-align: center;
+}
+.Platformsecondmain .Platformsecond h5{
+    font-size: 1.6vmax;
+    color: rgb(37,56,88);
+    margin-top: 2vmax;
+}
+.Platformsecondmain .Platformsecond p{
+    width: 30%;
+    font-size: 1.2vmax;
+    text-align: center;
+    margin-top: 1vmax;
+    color: rgba(0, 7, 12, 0.719);
+    font-weight: 500;
+}
+.Platformsecondmain .Platformsecondimg{
+    width: 100%;
+    text-align: center;
+}
+.Platformsecondmain .Platformsecondimg img{
+    width: 65%;
+    height: 40vmax;
+    padding-top: 2vmax;
+}
+
+
+
+
+@media (max-width:600px) {
+    .Platformsecondmain .Platformsecond h2{
+      width: 90%;
+      font-size: 3.3vmax;
+    }
+    .Platformsecondmain .Platformsecond h5{
+        font-size: 2.7vmax;
+    }
+    .Platformsecondmain .Platformsecond p{
+        width: 90%;
+        font-size: 1.9vmax;
+    }
+    .Platformsecondmain .Platformsecondimg img{
+        width: 90%;
+        height: 30vmax;
+    }
+}

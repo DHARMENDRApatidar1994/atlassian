@@ -1,0 +1,462 @@
+.AtlasResources {
+          width: 100%;
+          height: auto;
+          padding-top: 8vmax;
+}
+
+.AtlasResources .Resources {
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+}
+
+.AtlasResources .Resources .left {
+          width: 25%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          flex-direction: column;
+          background: #fff;
+}
+.AtlasResources .Resources .left .all-items button{
+          border: none;
+}
+
+
+.AtlasResources .Resources .left h3 {
+          font-size: 1vmax;
+          font-weight: 800;
+          margin-right: 5vmax;
+}
+
+.AtlasResources .Resources .left h1 {
+          font-size: 1.1vmax;
+          font-weight: bold;
+          color: #000;
+          letter-spacing: -0.7px;
+          margin-right: 10vmax;
+          font-family: Arial, Helvetica, sans-serif;
+}
+
+.AtlasResources .Resources .left ul li {
+          list-style: none;
+          padding: 0.3vmax;
+          transition: 1s;
+}
+
+.AtlasResources .Resources .left ul li:hover {
+          list-style: initial;
+}
+
+.AtlasResources .Resources .left ul li a {
+          text-decoration: none;
+          font-weight: 600;
+          transition: 1s;
+}
+
+.AtlasResources .Resources .left ul li a:hover {
+          color: blue;
+}
+
+.AtlasResources .Resources .right {
+          width: 70%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+}
+
+.AtlasResources .Resources .right .Rall {
+          width: 85%;
+          height: auto;
+          background-color: #fff;
+}
+
+.AtlasResources .Resources .right .Rall h1 {
+          font-size: 1vmax;
+          font-weight: 700;
+          letter-spacing: -0.5px;
+          font-family: Arial, Helvetica, sans-serif;
+}
+
+.AtlasResources .Resources .right .Rall p {
+          font-size: 0.8vmax;
+          letter-spacing: -0.5px;
+          font-family: Arial, Helvetica, sans-serif;
+}
+
+.AtlasResources .Resources .right .Rall .form {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          flex-direction: row;
+          height: 3vmax;
+}
+
+.AtlasResources .Resources .right .Rall .form input {
+          width: 90%;
+          border: none;
+          border-bottom: 2px solid #000;
+          background: none;
+}
+
+.AtlasResources .Resources .right .Rall .form i {
+          font-size: 1.5vmax;
+}
+
+.AtlasResources .Resources .right .Rall .form .cross {
+          width: 4%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 2vmax;
+          background-color: rgba(0, 0, 0, 0.123);
+}
+
+.AtlasResources .Resources .right .Rall .form .cross i {
+          font-size: 2vmax;
+}
+
+/* ----------- */
+
+/* Add this code to your AtlasResources.css file */
+
+.AtlasResources .Resources .right .Rall .Rcards {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+          gap: 10px;
+          margin-top: 10px;
+}
+
+.AtlasResources .Resources .right .Rall .Rcards .card {
+          background-color: #f7f7f7;
+          border: none;
+          width: 90%;
+          box-shadow: 2px 2px 10px 2px rgb(195, 195, 195);
+          margin-top: 1vmax;
+          display: flex;
+          cursor: pointer;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: space-between;
+          height: 25vmax;
+          transition: box-shadow 0.4s;
+}
+
+.AtlasResources .Resources .right .Rall .Rcards .card:hover {
+          box-shadow: 5px 5px 20px 2px rgb(105, 105, 105);
+}
+
+.AtlasResources .Resources .right .Rall .Rcards .card img {
+          width: 100%;
+          object-fit: contain;
+          background-position: center;
+          background-size: cover;
+          height: 10vmax;
+}
+
+.AtlasResources .Resources .right .Rall .Rcards .card h2 {
+          font-size: 0.8vmax;
+          margin-left: 1vmax;
+}
+
+.AtlasResources .Resources .right .Rall .Rcards .card p {
+          margin-left: 1vmax;
+          font-size: 1.1vmax;
+          font-family: Arial, Helvetica, sans-serif;
+          color: #000;
+}
+
+.AtlasResources .Resources .right .Rall .Rcards .card a {
+          display: inline-block;
+          color: #007bff;
+          border: none;
+          text-decoration: none;
+          position: relative;
+          font-size: 1.2vmax;
+          margin-left: 1vmax;
+          display: flex;
+          align-items: center;
+}
+
+.AtlasResources .Resources .right .Rall .Rcards .card a .arrow {
+          display: inline-block;
+          font-size: 1rem;
+          margin-left: 5px;
+          transition: opacity 0.3s, transform 0.3s;
+}
+
+.AtlasResources .Resources .right .Rall .Rcards .card:hover a .arrow {
+          transform: translateX(5px);
+}
+
+
+.AtlasResources .Resources .right .Rall .pagination {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 20px;
+}
+
+.AtlasResources .Resources .right .Rall .pagination button {
+          border: none;
+          background-color: transparent;
+          margin: 0 5px;
+          cursor: pointer;
+          font-size: 16px;
+          transition: color 0.3s;
+}
+
+.AtlasResources .Resources .right .Rall .pagination button.active {
+          background: #0f0f0f;
+          padding: 0.4vmax 1vmax;
+          color: #fff;
+}
+
+.AtlasResources .Resources .right .Rall .pagination .arrow {
+          font-size: 20px;
+          margin: 0 5px;
+          cursor: pointer;
+}
+
+.AtlasResources .Resources .right .Rall .pagination .arrow i {
+          background-color: #0000004c;
+          padding: 0.4vmax 1vmax;
+          font-size: 1.5vmax;
+
+}
+
+/* -------------------------------------------- */
+@media (max-width:600px) {
+          .AtlasResources .Resources {
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+          }
+          .AtlasResources .Resources .left {
+                    width: 90%;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: center;
+                    flex-direction: column;
+          }
+          
+          .AtlasResources .Resources .left h3 {
+                    font-size: 2vmax;
+                    margin-right: 5vmax;
+          }
+          
+          .AtlasResources .Resources .left h1 {
+                    font-size: 2vmax;
+                    
+          }
+          .AtlasResources .Resources .right {
+                    width: 90%;
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+          }
+          
+          .AtlasResources .Resources .right .Rall {
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+          }
+          
+          
+.AtlasResources .Resources .right .Rall h1 {
+          font-size: 2vmax;
+}
+
+.AtlasResources .Resources .right .Rall p {
+          font-size: 1.8vmax;
+}
+
+.AtlasResources .Resources .right .Rall .form {
+          width: 100%;
+}
+
+.AtlasResources .Resources .right .Rall .form input {
+          width: 80%;
+}
+
+.AtlasResources .Resources .right .Rall .form i {
+          font-size: 2.5vmax;
+}
+
+.AtlasResources .Resources .right .Rall .form .cross {
+          width: 7%;
+          height: 4vmax;
+}
+
+.AtlasResources .Resources .right .Rall .form .cross i {
+          font-size: 3vmax;
+}
+.AtlasResources .Resources .right .Rall .Rcards{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+}
+.AtlasResources .Resources .right .Rall .Rcards .card {
+          width: 90%;
+          height: 40vmax;
+}
+.AtlasResources .Resources .right .Rall .Rcards .card img {
+          height: 20vmax;
+}
+
+.AtlasResources .Resources .right .Rall .Rcards .card h2 {
+          font-size: 1.5vmax;
+}
+
+.AtlasResources .Resources .right .Rall .Rcards .card p {
+          font-size: 2.5vmax;
+}    
+.AtlasResources .Resources .right .Rall .Rcards .card a {
+          font-size: 2.5vmax;
+}
+
+           
+/* --------------- */
+          .AtlasResources .Resources .left .topics-list li:not(.all-items) {
+                    display: none;
+                }
+            
+                .AtlasResources .Resources .left .topics-list.show-all .all-items {
+                    display: none;
+                }
+            
+                .AtlasResources .Resources .left .topics-list.show-all li:not(.all-items) {
+                    display: block;
+                }
+}
+/* -------------------------------------- */
+/* -------------------------------------------- */
+@media (min-width:600px) and (max-width:850px) {
+          .AtlasResources .Resources {
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+          }
+          .AtlasResources .Resources .left {
+                    width: 90%;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: center;
+                    flex-direction: column;
+          }
+          
+          .AtlasResources .Resources .left h3 {
+                    font-size: 2vmax;
+                    margin-right: 5vmax;
+          }
+          
+          .AtlasResources .Resources .left h1 {
+                    font-size: 2vmax;
+                    
+          }
+          .AtlasResources .Resources .right {
+                    width: 90%;
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+          }
+          
+          .AtlasResources .Resources .right .Rall {
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+          }
+          
+          
+.AtlasResources .Resources .right .Rall h1 {
+          font-size: 2vmax;
+}
+
+.AtlasResources .Resources .right .Rall p {
+          font-size: 1.8vmax;
+}
+
+.AtlasResources .Resources .right .Rall .form {
+          width: 100%;
+}
+
+.AtlasResources .Resources .right .Rall .form input {
+          width: 80%;
+}
+
+.AtlasResources .Resources .right .Rall .form i {
+          font-size: 2.5vmax;
+}
+
+.AtlasResources .Resources .right .Rall .form .cross {
+          width: 7%;
+          height: 4vmax;
+}
+
+.AtlasResources .Resources .right .Rall .form .cross i {
+          font-size: 3vmax;
+}
+.AtlasResources .Resources .right .Rall .Rcards{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+}
+.AtlasResources .Resources .right .Rall .Rcards .card {
+          width: 90%;
+          height: 40vmax;
+}
+.AtlasResources .Resources .right .Rall .Rcards .card img {
+          height: 20vmax;
+}
+
+.AtlasResources .Resources .right .Rall .Rcards .card h2 {
+          font-size: 1.5vmax;
+}
+
+.AtlasResources .Resources .right .Rall .Rcards .card p {
+          font-size: 2.5vmax;
+}    
+.AtlasResources .Resources .right .Rall .Rcards .card a {
+          font-size: 2.5vmax;
+}
+
+           
+/* --------------- */
+          .AtlasResources .Resources .left .topics-list li:not(.all-items) {
+                    display: none;
+                }
+            
+                .AtlasResources .Resources .left .topics-list.show-all .all-items {
+                    display: none;
+                }
+            
+                .AtlasResources .Resources .left .topics-list.show-all li:not(.all-items) {
+                    display: block;
+                }
+}

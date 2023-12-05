@@ -1,0 +1,92 @@
+.pricingadmain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vmax;
+}
+.pricingadmain .pricingadmaindiv{
+    width: 80%;
+    background-color: rgb(244,245,247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6vmax;
+}
+.pricingadmain .pricingadmaindiv .pricingadmaindivtop{
+    width: 80%
+}
+.pricingadmain .pricingadmaindiv .pricingadmaindivtop h2{
+    width: 85%;
+    font-size: 2.4vmax;
+    color: rgb(37,56,88);
+}
+.pricingadmain .pricingadmaindiv .pricingadmaindivtop p{
+    width: 70%;
+    font-size: 1.2vmax;
+    color:rgb(39,92,119);
+    margin-top: 2vmax;
+}
+.pricingadmain .pricingadmaindiv .pricingadmaindivbottom{
+   width: 80%; 
+   display: flex;
+   justify-content: space-between;
+}
+
+.pricingadmain .pricingadmaindiv .pricingadmaindivbottom button{
+    border: 1px solid rgb(0,82,204);
+    padding: 0.5vmax 1.5vmax;
+    font-size: 1.2vmax;
+    border-radius: 0.3vmax;
+    color:  rgb(0,82,204);
+    margin-top: 2vmax;
+    margin-left: 1vmax;
+}
+.pricingadmain .pricingadmaindiv .pricingadmaindivbottom img{
+    width: 50%;
+    height: 20vmax;
+   transform: translateX(6vmax);
+}
+
+
+
+@media (max-width:600px) {
+    .pricingadmain .pricingadmaindiv{
+        width: 90%;
+    }
+    .pricingadmain .pricingadmaindiv .pricingadmaindivtop{
+        width: 90%;
+         display: flex; 
+         flex-direction: column; 
+         align-items: center; 
+    }
+    .pricingadmain .pricingadmaindiv .pricingadmaindivtop h2{
+        width: 90%;
+        font-size: 3vmax;
+    }
+    .pricingadmain .pricingadmaindiv .pricingadmaindivtop p{
+        width: 90%;
+        font-size: 2vmax;
+    }
+    .pricingadmain .pricingadmaindiv .pricingadmaindivbottom{
+       width: 100%; 
+       flex-direction: column;
+       align-items: center;
+    }
+    .pricingadmain .pricingadmaindiv .pricingadmaindivbottom .pricingadmaindivbottomleft{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .pricingadmain .pricingadmaindiv .pricingadmaindivbottom button{
+        padding: 1.5vmax 3.5vmax;
+        font-size: 2.5vmax;
+        border-radius: 0.3vmax;
+    }
+    .pricingadmain .pricingadmaindiv .pricingadmaindivbottom img{
+        width: 100%;
+        height: 30vmax;
+       transform: translateX(0vmax);
+       margin-top: 5vmax;
+    }
+}

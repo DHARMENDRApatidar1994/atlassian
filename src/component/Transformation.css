@@ -1,0 +1,224 @@
+.Transformation{
+          width: 100%;
+          height: auto;
+          margin-top: 4vmax;
+}
+.Transformation .Transform{
+          width: 100%;
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+}
+.Transformation .Transform .ConnectedTeams{
+          width: 80%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 10vmax;
+}
+.Transformation .Transform .ConnectedTeams h1{
+          display: flex;
+          width: 80%;
+          height:4vmax;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          font-size: 2vmax;
+          font-weight: bolder;
+}
+.Transformation .Transform .ConnectedTeams h1 span{
+           width: 15%;
+           height:0.3vmax;
+           background-color: rgb(162, 55, 255);
+}
+.Transformation .Transform .Medium{
+          width: 100%;
+          height: 50vmax;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+}
+.Transformation .Transform .Medium .left{
+          width: 35%;
+          height: 50vmax;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: flex-end;
+}
+.Transformation .Transform .Medium .left .content{
+          width: 75%;
+          height: 10vmax;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: flex-start;
+}
+.Transformation .Transform .Medium .left .content h1{
+          font-size: 1.5vmax;
+          color: #000000d6;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: bolder;
+          letter-spacing: -0.5px;
+}
+.Transformation .Transform .Medium .left .content p{
+          font-family: Arial, Helvetica, sans-serif;
+          color: rgba(0, 0, 0, 0.758);
+}
+
+.Transformation .Transform .Medium .right{
+          width: 60%;
+          height: 50vmax;
+          
+}
+.Transformation .Transform .Medium .right img{
+          width: 99%;
+          height: 50vmax;
+}
+
+@media (max-width: 600px) {
+          .Transformation{
+                    width: 100%;
+                    height: auto;
+          }
+          .Transformation .Transform{
+                    width: 100%;
+                    height: auto;
+          }
+          .Transformation .Transform .ConnectedTeams{
+                    width: 80%;
+                    height: 20vmax;
+                    border-bottom:1px solid #000 ;
+          }      
+          .Transformation .Transform .ConnectedTeams h1{
+                    width: 90%;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    height:15vmax;
+                    font-size: 2.8vmax;         
+          }
+          .Transformation .Transform .ConnectedTeams h1 span{
+                     width: 50%;
+                     height:0.5vmax;
+          }
+          .Transformation .Transform .Medium{
+                    width: 90%;
+                    height: 120vmax;
+                    display: flex;
+                    flex-direction: column-reverse;
+                    justify-content: space-between;
+                    align-items: center;
+          }
+          .Transformation .Transform .Medium .right{
+                    width: 100%;
+                    height: 50vmax;
+          }
+          .Transformation .Transform .Medium .right img{
+                    width: 100%;
+                    height: 45vmax;
+          }
+          .Transformation .Transform .Medium .left{
+                    width: 100%;
+                    height: 70vmax;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: flex-start;
+          }
+          .Transformation .Transform .Medium .left .content{
+                    width: 100%;
+                    height: 22vmax;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: flex-start;
+          }
+          .Transformation .Transform .Medium .left .content h1{
+                    font-size: 2.5vmax;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: rgba(0, 0, 0, 0.769);
+          }
+          .Transformation .Transform .Medium .left .content p{
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: rgba(0, 0, 0, 0.605);
+          }
+
+}
+
+
+@media (min-width: 600px) and (max-width: 850px) {
+          .Transformation{
+                    width: 100%;
+                    height: auto;
+          }
+          .Transformation .Transform{
+                    width: 100%;
+                    height: auto;
+          }
+          .Transformation .Transform .ConnectedTeams{
+                    width: 80%;
+                    height: 20vmax;
+                    border-bottom:1px solid #000 ;
+          }      
+          .Transformation .Transform .ConnectedTeams h1{
+                    width: 90%;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    height:15vmax;
+                    font-size: 2.8vmax;         
+          }
+          .Transformation .Transform .ConnectedTeams h1 span{
+                     width: 50%;
+                     height:0.5vmax;
+          }
+          .Transformation .Transform .Medium{
+                    width: 90%;
+                    height: 120vmax;
+                    display: flex;
+                    flex-direction: column-reverse;
+                    justify-content: space-between;
+                    align-items: center;
+          }
+          .Transformation .Transform .Medium .right{
+                    width: 100%;
+                    height: 50vmax;
+          }
+          .Transformation .Transform .Medium .right img{
+                    width: 100%;
+                    height: 45vmax;
+          }
+          .Transformation .Transform .Medium .left{
+                    width: 100%;
+                    height: 70vmax;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: flex-start;
+          }
+          .Transformation .Transform .Medium .left .content{
+                    width: 100%;
+                    height: 22vmax;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: flex-start;
+          }
+          .Transformation .Transform .Medium .left .content h1{
+                    font-size: 2.5vmax;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: rgba(0, 0, 0, 0.769);
+          }
+          .Transformation .Transform .Medium .left .content p{
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: rgba(0, 0, 0, 0.605);
+          }
+
+}

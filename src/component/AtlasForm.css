@@ -1,0 +1,97 @@
+.AtlasForm{
+          width: 100%;
+          height: auto;
+          margin-top: 6vmax;
+}
+.AtlasForm .Form{
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+}
+.AtlasForm .Form .FormTop{
+          width: 100%;
+          height: auto;
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: column;
+}
+.AtlasForm .Form .FormTop p{
+          font-size: 0.7vmax;
+}
+.AtlasForm .Form .FormTop h1{
+          font-size: 2vmax;
+          font-weight: bolder;
+}
+.AtlasForm .Form .FormBottom{
+          width: 40%;
+           margin-top: 2vmax;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+}
+.AtlasForm .Form .FormBottom form .AForm{
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-evenly;
+          flex-direction: column;
+}
+@media (max-width:600px) {
+          .AtlasForm{
+                    width: 100%;
+                    height: auto;
+          }
+          .AtlasForm .Form{
+                    width: 100%;
+                    height: auto;
+          }
+          .AtlasForm .Form .FormTop{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    /* background-color: aqua; */
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+          }
+          .AtlasForm .Form .FormTop p{
+                    font-size: 1.5vmax;
+          }
+          .AtlasForm .Form .FormTop h1{
+                    font-size: 3vmax;
+                    font-weight: bolder;
+          }
+          .AtlasForm .Form .FormBottom{
+                    width: 90%;
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+          }
+          .AtlasForm .Form .FormBottom form .AForm{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: space-evenly;
+                    flex-direction: column;
+          }
+}
+@media (min-width:600px) and (max-width:850px) {
+          .AtlasForm .Form .FormBottom{
+                    width: 90%;
+                     margin-top: 2vmax;
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+          }
+}

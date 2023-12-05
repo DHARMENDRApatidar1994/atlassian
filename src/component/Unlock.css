@@ -1,0 +1,133 @@
+.unlockmain{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 15px 2px rgb(190, 190, 190);
+    padding-top: 4vmax;
+}
+.unlockmain .unlockleft{
+ width: 50%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ padding-left: 8vmax;
+
+}
+.unlockmain .unlockleft h2{
+    font-size: 3vmax;
+    color: rgb(4, 4, 94);
+}
+.unlockmain .unlockleft h5{
+    width: 50%;
+    font-size: 1.3vmax;
+    color: gray;
+    font-weight: 500;
+    margin-top: 1.5vmax;
+}
+.unlockmain .unlockleft .watchdiv{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5vmax;
+}
+.unlockmain .unlockleft .watchdiv button{
+    border: none;
+    background-color: rgb(0,82,204);
+    color: white;
+    padding: 0.5vmax 2vmax;
+    font-size: 1.2vmax;
+    border-radius: 0.3vmax;
+    
+}
+.unlockmain .unlockleft .watchdiv h6{
+    color: rgb(49,82,209);
+    cursor: pointer;
+}
+.unlockmain .unlockleft .watchdiv h6:hover{
+    border-bottom: 1px solid blue;
+}
+.unlockmain .unlockleft .watchdiv h6:hover i{
+    transform: translateX(2vmax);
+}
+.unlockmain .unlockright{
+  width: 60%;
+}
+.unlockmain .unlockright img{
+    width: 100%;
+    height: 42vmax;
+}
+
+@media (max-width:600px) {
+    .unlockmain{
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        
+    }
+    .unlockmain .unlockleft{
+     width: 90%;
+     padding-left: 0vmax;
+     padding-top: 15vmax;
+     
+    
+    }
+    .unlockmain .unlockleft h2{
+        font-size: 4vmax;
+    }
+    .unlockmain .unlockleft h5{
+        width: 90%;
+        font-size: 2.4vmax;
+        margin-top: 3vmax;
+        z-index: 999;
+    }
+    .unlockmain .unlockleft .watchdiv{
+        width: 100%;
+        margin-top: 4vmax;
+    }
+    .unlockmain .unlockleft .watchdiv button{
+        padding: 1vmax 2vmax;
+        font-size: 2vmax;
+        
+    }
+    .unlockmain .unlockleft .watchdiv h6{
+        font-size: 2.3vmax;
+        z-index: 999;
+    }
+    .unlockmain .unlockright{
+      width: 100%;
+      transform: translate(9vmax, -20vmax);
+    }
+    .unlockmain .unlockright img{
+        width: 150%;
+        height: 55vmax;
+        
+    }
+}
+
+@media (min-width:600px) and (max-width:950px) {
+    .unlockmain .unlockleft{
+        padding-left: 5vmax;
+    }
+       .unlockmain .unlockleft h5{
+           width: 90%;
+           font-size: 1.8vmax;
+       }
+       .unlockmain .unlockleft .watchdiv{
+           width: 100%;
+
+       }
+       .unlockmain .unlockleft .watchdiv button{
+           font-size: 1.3vmax;
+           
+       }
+       .unlockmain .unlockleft .watchdiv h6{
+           font-size: 1.4vmax;
+       }
+       .unlockmain .unlockleft .watchdiv h6:hover{
+           border-bottom: 1px solid blue;
+       }
+       .unlockmain .unlockleft .watchdiv h6:hover i{
+           transform: translateX(2vmax);
+       }
+}

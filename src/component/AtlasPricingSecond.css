@@ -1,0 +1,150 @@
+.AtlasPricingSecond{
+          width: 100%;
+          height: auto;
+          margin-top: 5vmax;
+}
+.AtlasPricingSecond .Pricing{
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+.AtlasPricingSecond .Pricing .blue{
+          width: 80%;
+          height: 15vmax;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          background-color: rgb(240, 240, 255);
+}
+.AtlasPricingSecond .Pricing .blue .Pleft{
+          width: 40%;
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+}
+.AtlasPricingSecond .Pricing .blue .Pleft h2{
+         font-size: 1.5vmax;
+}
+.AtlasPricingSecond .Pricing .blue .Pleft button{
+          background: none;
+          border: none;
+          padding: 0.5vmax 1vmax 0 0vmax;
+ }
+ .AtlasPricingSecond .Pricing .blue .Pleft button a{
+        text-decoration: none;
+ }
+   
+ .AtlasPricingSecond .Pricing .blue .Pleft button a i{
+        font-size: 1vmax;
+   }
+   .AtlasPricingSecond .Pricing .blue .Pleft button a:hover {
+          color: rgb(17, 17, 67); 
+          text-decoration: underline; 
+        }
+        
+        .AtlasPricingSecond .Pricing .blue .Pleft button a i {
+          font-size: 1vmax;
+          transition: transform 0.3s; 
+        }
+        
+        .AtlasPricingSecond .Pricing .blue .Pleft button a:hover i {
+          transform: translateX(10px); 
+        }
+        
+.AtlasPricingSecond .Pricing .blue .Pright{
+          width: 30%;
+          height: auto;
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+}
+@media (max-width:600px) {
+          .AtlasPricingSecond .Pricing{
+                    width: 90%;
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+          }
+          .AtlasPricingSecond .Pricing .blue{
+                    width: 90%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: rgb(240, 240, 255);
+          } 
+          .AtlasPricingSecond .Pricing .blue .Pleft{
+                    width: 90%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+          }
+
+          .AtlasPricingSecond .Pricing .blue .Pleft h2{
+                    font-size: 2vmax;
+           }
+              
+            .AtlasPricingSecond .Pricing .blue .Pleft button a i{
+                   font-size: 2vmax;
+              }
+
+          .AtlasPricingSecond .Pricing .blue .Pright{
+                    width: 80%;
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+          }
+}
+
+
+@media (min-width:600px) and (max-width:850px) {
+          .AtlasPricingSecond .Pricing{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+          }
+          .AtlasPricingSecond .Pricing .blue{
+                    width: 80%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: rgb(240, 240, 255);
+          } 
+          .AtlasPricingSecond .Pricing .blue .Pleft{
+                    width: 90%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+          }
+
+          .AtlasPricingSecond .Pricing .blue .Pleft h2{
+                    font-size: 2vmax;
+           }
+              
+            .AtlasPricingSecond .Pricing .blue .Pleft button a i{
+                   font-size: 2vmax;
+              }
+
+          .AtlasPricingSecond .Pricing .blue .Pright{
+                    width: 80%;
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+          }
+}

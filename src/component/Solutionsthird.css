@@ -1,0 +1,209 @@
+.Solutionsthirdmain{
+    width: 100%;
+    background-color: rgb(235,236,240);
+    margin-top: 5vmax;
+}
+.Solutionsthirdmain h1{
+    font-size: 2.5vmax;
+    text-align: center;
+    padding-top: 3.5vmax;
+}
+.Solutionsthirdmain .Solutionsthirdmaindiv{
+    width: 100%;
+    background-color: rgb(235,236,240);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 2vmax;
+    margin-top: 1vmax;
+}
+.Solutionsthirdmain .Solutionsthirdmaindiv .Solutionsthirdmainbox{
+    width: 28%;
+    background-color: rgb(255,255,255);
+    padding: 2vmax;
+    margin-top: 2vmax;
+
+}
+.Solutionsthirdmain .Solutionsthirdmaindiv .Solutionsthirdmainbox .boxline{
+    width: 45%;
+    border: 2px solid rgb(223,225,229);
+    border-radius: 5vmax;
+}
+.Solutionsthirdmain .Solutionsthirdmaindiv .Solutionsthirdmainbox h5{
+    font-size: 1.7vmax;
+    margin-top: 0.5vmax;
+}
+.Solutionsthirdmain .Solutionsthirdmaindiv .Solutionsthirdmainbox h6{
+
+    font-size: 1.2vmax;
+    margin-top: 3.2vmax;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+
+}
+.Solutionsthirdmain .Solutionsthirdmaindiv .Solutionsthirdmainbox h6:hover{
+    width: 40%;
+    border-bottom: 1px solid blue;
+}
+
+.Solutionsthirdmain .Solutionsthirdmainbottom h5{
+    text-align: center;
+    padding-bottom: 4vmax;
+    color: rgb(83, 82, 82);
+    font-size: 1.4vmax;
+    font-weight: 400;
+}
+.Solutionsfourmain{
+    width: 100%;
+}
+.Solutionsfourmain h1{
+    font-size: 2.5vmax;
+    text-align: center;
+    padding-top: 3.5vmax;
+}
+.Solutionsfourmain .Solutionsfourmaindiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2vmax;
+    margin-top: 1vmax;
+    
+}
+.Solutionsfourmain .Solutionsfourmaindiv .Solutionsfourmaindivbigbox{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.Solutionsfourmain .Solutionsfourmaindiv .Solutionsfourmainbox{
+    width: 40%;
+    background-color: rgb(255,255,255);
+    padding: 2vmax;
+    margin-top: 2vmax;
+    box-shadow: 2px 2px 10px 2px rgb(233, 230, 230);
+
+}
+.Solutionsfourmain .Solutionsfourmaindiv .Solutionsfourmainbox .boxline{
+    width: 45%;
+    border: 2px solid rgb(223,225,229);
+    border-radius: 5vmax;
+}
+.Solutionsfourmain .Solutionsfourmaindiv .Solutionsfourmainbox h5{
+    height: 4vmax;
+    font-size: 1.6vmax;
+    margin-top: 0.5vmax;
+}
+.Solutionsfourmain .Solutionsfourmaindiv .Solutionsfourmainbox h6{
+
+    font-size: 1.2vmax;
+    margin-top: 2vmax;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+
+}
+.Solutionsfourmain .Solutionsfourmaindiv .Solutionsfourmainbox h6:hover{
+    width: 50%;
+    border-bottom: 1px solid blue;
+}
+.Solutionsfourmain .Solutionsfourmainbottom{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Solutionsfourmain .Solutionsfourmainbottom .boxbottomline{
+ width: 30%;
+ margin-top: 3vmax;
+}
+.Solutionsfourmain .Solutionsfourmainbottom h5{
+    text-align: center;
+    color: rgb(14, 13, 13);
+    font-size: 1.4vmax;
+    margin-top: 2vmax;
+}
+.Solutionsfourmain .Solutionsfourmainbottom h6{
+    margin-top: 1vmax;
+}
+.Solutionsfourmain .Solutionsfourmainbottom h6:hover{
+    border-bottom: 1px solid rgb(69, 69, 233);
+    cursor: pointer;
+}
+
+
+
+
+
+@media (max-width:600px) {
+    .Solutionsthirdmain h1{
+        width: 90%;
+        padding-left: 5vmax;
+        font-size: 3vmax;
+    }
+    .Solutionsthirdmain .Solutionsthirdmaindiv .Solutionsthirdmainbox{
+        width: 80%;
+        padding: 5vmax;
+    
+    }
+    .Solutionsthirdmain .Solutionsthirdmaindiv .Solutionsthirdmainbox h5{
+        font-size: 2.8vmax;
+        margin-top: 1vmax;
+    }
+    .Solutionsthirdmain .Solutionsthirdmaindiv .Solutionsthirdmainbox h6{
+        font-size: 2vmax;
+    }
+    .Solutionsthirdmain .Solutionsthirdmaindiv .Solutionsthirdmainbox h6:hover{
+        width: 60%;
+    }
+    
+    .Solutionsthirdmain .Solutionsthirdmainbottom{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Solutionsthirdmain .Solutionsthirdmainbottom h5{
+        width: 80%;
+        font-size: 2.3vmax;
+    }
+    
+    .Solutionsfourmain h1{
+        padding: 2vmax;
+        font-size: 2.9vmax;
+        padding-top: 5vmax;
+    }
+    .Solutionsfourmain .Solutionsfourmaindiv{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .Solutionsfourmain .Solutionsfourmaindiv .Solutionsfourmaindivbigbox{
+        width: 100%;
+    }
+    .Solutionsfourmain .Solutionsfourmaindiv .Solutionsfourmainbox{
+        width: 80%;
+        padding: 4vmax;
+    
+    }
+    .Solutionsfourmain .Solutionsfourmaindiv .Solutionsfourmainbox .boxline{
+        width: 70%;
+    }
+    .Solutionsfourmain .Solutionsfourmaindiv .Solutionsfourmainbox h5{
+        height: 8vmax;
+        font-size: 2.5vmax;
+    }
+    .Solutionsfourmain .Solutionsfourmaindiv .Solutionsfourmainbox h6{
+    
+        font-size: 2vmax;
+        margin-top: -1vmax;
+    }
+    .Solutionsfourmain .Solutionsfourmainbottom .boxbottomline{
+     width: 60%;
+    }
+    .Solutionsfourmain .Solutionsfourmainbottom h5{
+        width: 90%;
+        font-size: 2.2vmax;
+    }
+    
+}

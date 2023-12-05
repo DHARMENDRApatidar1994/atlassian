@@ -1,0 +1,191 @@
+.strategy{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 7vmax;
+    font-family: sans-serif;
+
+}
+.strategy h1{
+    font-size: 3vmax;
+    margin-top: 3vmax;
+    color: #253858;
+    font-weight: 600;
+}
+.strategy h6{
+    font-size: 1.4vmax;
+    margin-top: 1vmax;
+    color: #102952;
+    font-weight: 400;
+}
+.strategy h3{
+    width: 10%;
+    height: 0.3vmax;
+    background-color: #3000cc;
+    margin-top: 2vmax;
+    
+}
+.strategy h2{
+    font-size: 2.5vmax;
+    font-weight: 700;
+    margin-top: 2.5vmax;
+}
+
+.strategy img{
+    width: 65%;
+    margin-top: 1.5vmax;
+}
+.portfolioimages{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content: space-evenly;
+
+}
+.portfolioimages .portfolioindiv{
+    width: 26%;
+    margin-left: 2vmax;
+    box-shadow: 1px 1px 10px 1px rgb(228, 227, 227);
+    margin-top: 5vmax;
+    
+    
+}
+.portfolioindiv img{
+    width: 3vmax;
+    height: 3vmax;
+    margin-top: 3vmax;
+    margin-left: 2vmax;
+}
+.portfolioindiv h2{
+    font-size: 1.8vmax;
+    margin-top: 2vmax;
+    margin-left: 2vmax;
+}
+.portfolioindiv hr{
+    width: 45%;
+    height: 0.2vmax;
+    background-color: gray;
+    margin-left: 2vmax;
+}
+.portfolioindiv p{
+    width: 80%;
+    font-size: 1.2vmax;
+    margin-top: 2vmax;
+    margin-left: 2vmax;
+}
+.portfolioindiv h6{
+    font-size: 1.5vmax;
+    color: blue;
+    margin-top:2.5vmax ;
+    margin-left: 2vmax;
+    border-bottom: 1px solid white;
+    transition: 0.5s;
+}
+.portfolioindiv h6:hover{
+    width: 40%;
+    border-bottom: 1px solid blue;
+}
+
+
+@media (max-width:600px) {
+   
+    .strategy h1{
+        width: 80%;
+        text-align: center;
+      
+    }
+    .strategy h6{
+        width: 80%;
+        font-size: 1.9vmax;
+        text-align: center;
+       
+    }
+    .strategy hr{
+        width: 20%;
+       
+        
+    }
+    .strategy h2{
+        width: 87%;
+        text-align: center;
+       
+    }
+    .strategy img{
+        width: 75%;
+    }
+    .portfolioimages .portfolioindiv{
+        width: 80%;
+        margin-bottom: 1vmax; 
+    }
+    .portfolioindiv img{
+        width: 5vmax;
+        height: 5vmax;
+    }
+    .portfolioindiv h2{
+        font-size: 2.6vmax;
+    }
+    .portfolioindiv hr{
+        width: 45%;
+        height: 0.5vmax;
+    }
+    .portfolioindiv p{
+        font-size: 1.8vmax;
+    }
+    .portfolioindiv h6{
+        font-size: 1.8vmax;
+    }
+    .portfolioindiv h6:hover{
+        width: 30%;
+    }
+}
+
+@media (min-width:600px) and (max-width:950px) {
+    .strategy h1{
+        width: 80%;
+        text-align: center;
+      
+    }
+    .strategy h6{
+        width: 80%;
+        font-size: 1.9vmax;
+        text-align: center;
+       
+    }
+    .strategy hr{
+        width: 20%;
+       
+        
+    }
+    .strategy h2{
+        width: 87%;
+        text-align: center;
+       
+    }
+    .portfolioimages .portfolioindiv{
+        width: 40%;
+        margin-bottom: 1vmax; 
+    }
+    .portfolioindiv img{
+        width: 5vmax;
+        height: 5vmax;
+    }
+    .portfolioindiv h2{
+        font-size: 2.6vmax;
+    }
+    .portfolioindiv hr{
+        width: 45%;
+        height: 0.5vmax;
+    }
+    .portfolioindiv p{
+        font-size: 1.8vmax;
+    }
+    .portfolioindiv h6{
+        font-size: 1.8vmax;
+    }
+    .portfolioindiv h6:hover{
+        width: 45%;
+    }
+}

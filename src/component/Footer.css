@@ -1,0 +1,149 @@
+.footer{
+    width: 100%;
+    background-color: #f4f5f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4vmax 1vmax;
+    /* margin-top: 5vmax; */
+}
+.footerup{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+.footer .footerup h3{
+    font-size:1.2vmax ;
+    font-weight: 700;
+    color:#42526e;
+    margin-bottom: 2.5vmax;
+}
+.footer .footerup h6{
+    color:#42526e;
+    margin-top: 1vmax;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+.footer .footerup h5{
+    color: rgb(64, 64, 221);
+    margin-top: 2vmax;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 1.1vmax;
+}
+.footer .footerdown{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.footerdown select{
+    border: none;
+}
+
+.lasticons{
+    width: 30%;
+    text-align: center;
+}
+.footer .footerdown .lasticons i{
+   font-size: 3vmax;
+   /* color: white; */
+}
+.ri-facebook-fill{
+    background-color: rgb(54, 54, 138);
+    color: white;
+}
+.ri-twitter-fill{
+    color: #60a9dc;
+}
+.ri-linkedin-fill{
+    background-color:#016699;
+    color: white;
+}
+.ri-youtube-fill{
+    color: red;
+}
+
+
+
+
+
+@media (max-width:600px) {
+    
+    .footerup{
+        flex-wrap: wrap;
+        justify-content: space-evenly;     
+    }
+    .footerup img{
+        width: 70%;
+    }
+    .right1{
+        width: 40%;
+    }
+    .footer .footerup h3{
+        font-size:1.6vmax ;
+        margin-top: 4vmax;
+    } .footer .footerup h5{
+        font-size: 1.8vmax;
+    }
+    .footer .footerdown{
+        flex-direction: column;
+    }
+    .footer .footerdown .lasticons i{
+       font-size: 4vmax;
+       }
+       .ri-dribbble-line{
+        font-size: 2.5vmax;
+       }
+   
+    
+}
+
+@media (min-width:600px) and (max-width:830px) {
+    .footerup{
+        flex-wrap: wrap;
+        justify-content: space-evenly;     
+    }
+    .footerup img{
+        width: 70%;
+        height: 40%;
+    }
+    .right1{
+        width: 40%;
+    }
+    .footer .footerup h3{
+        font-size:1.8vmax ;
+        margin-top: 4vmax;
+    }
+    .footer .footerup h6{
+        margin-top: 1.6vmax; 
+    }
+     .footer .footerup h5{
+        font-size: 2vmax;
+    }
+    .footer .footerdown{
+        flex-direction: column;
+    }
+    .footer .footerdown .lasticons i{
+       font-size: 4vmax;
+       }
+       .footerdown select{
+        font-size: 1.8vmax;
+    }
+       .footerdown h6{
+        font-size: 1.8vmax;
+        margin-top: 1vmax;
+       }
+       .ri-dribbble-line{
+        font-size: 2vmax;
+       }
+}

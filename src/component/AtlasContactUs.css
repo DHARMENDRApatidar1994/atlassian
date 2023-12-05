@@ -1,0 +1,161 @@
+.AtlasContactUs{
+          width: 100%;
+          height: auto;
+          margin-top: 5vmax;
+}
+.AtlasContactUs .PRICING{
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+.AtlasContactUs .PRICING .blue{
+          width: 80%;
+          height: 25vmax;
+          display: flex;
+          align-items: center;
+          justify-content:center;
+          background-color: rgb(234, 234, 255);
+}
+.AtlasContactUs .PRICING .blue .Pleft{
+          width: 55%;
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+}
+.AtlasContactUs .PRICING .blue .Pleft h2{
+         font-size: 1.6vmax;
+}
+.AtlasContactUs .PRICING .blue .Pleft p{
+          font-size: 1vmax;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 1vmax;
+ }
+.AtlasContactUs .PRICING .blue .Pleft button{
+          background: none;
+          border: none;
+          font-family: Arial, Helvetica, sans-serif;
+          padding: 0.5vmax 1vmax 0 0vmax;
+          color: rgb(169, 169, 255);
+ }
+ .AtlasContactUs .PRICING .blue .Pleft button a{
+        text-decoration: none;
+ }
+   
+ .AtlasContactUs .PRICING .blue .Pleft button a i{
+        font-size: 1vmax;
+   }
+   .AtlasContactUs .PRICING .blue .Pleft button a:hover {
+          color: rgb(34, 34, 244); 
+          text-decoration: underline; 
+        }
+        
+        .AtlasContactUs .PRICING .blue .Pleft button a i {
+          font-size: 1vmax;
+          transition: transform 0.3s; 
+        }
+        
+        .AtlasContactUs .PRICING .blue .Pleft button a:hover i {
+          transform: translateX(10px); 
+        }
+        
+.AtlasContactUs .PRICING .blue .Pright{
+          width: 30%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+.AtlasContactUs .PRICING .blue .Pright img{
+          width: 60%;
+          height: auto;
+}
+@media (max-width:600px) {
+          .AtlasContactUs .PRICING{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+          }
+          .AtlasContactUs .PRICING .blue{
+                    width: 90%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: rgb(240, 240, 255);
+          } 
+          .AtlasContactUs .PRICING .blue .Pleft{
+                    width: 90%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+          }
+
+          .AtlasContactUs .PRICING .blue .Pleft h2{
+                    font-size: 2vmax;
+           }
+              
+            .AtlasContactUs .PRICING .blue .Pleft button a i{
+                   font-size: 2vmax;
+              }
+
+          .AtlasContactUs .PRICING .blue .Pright{
+                    width: 80%;
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+          }
+}
+
+
+@media (min-width:600px) and (max-width:850px) {
+          .AtlasContactUs .PRICING{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+          }
+          .AtlasContactUs .PRICING .blue{
+                    width: 80%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: rgb(240, 240, 255);
+          } 
+          .AtlasContactUs .PRICING .blue .Pleft{
+                    width: 90%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+          }
+
+          .AtlasContactUs .PRICING .blue .Pleft h2{
+                    font-size: 2vmax;
+           }
+              
+            .AtlasContactUs .PRICING .blue .Pleft button a i{
+                   font-size: 2vmax;
+              }
+
+          .AtlasContactUs .PRICING .blue .Pright{
+                    width: 80%;
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+          }
+}

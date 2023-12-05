@@ -1,0 +1,97 @@
+.AtlasSecurity{
+          width: 100%;
+          height: auto;
+          margin-top: 5vmax;
+        
+}
+.AtlasSecurity .security{
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+.AtlasSecurity .security .securityLeft{
+          width: 20%;
+          height: auto;
+          display: flex;align-items: flex-start;
+          justify-content: flex-start;
+          object-fit: contain;
+          background-position: center;
+          background-size: cover;
+}
+.AtlasSecurity .security .securityLeft img{
+          width: 70%;
+          height: auto;
+}
+.AtlasSecurity .security .securityRight{
+          width: 30%;
+          height: auto;
+          display: flex;
+          align-items:flex-start;
+          justify-content: space-evenly;
+          flex-direction: column;
+}
+.AtlasSecurity .security .securityRight h1{
+          font-size: 1.5vmax;
+          margin-top: 0.6vmax;
+}
+.AtlasSecurity .security .securityRight p{
+          font-size: 1vmax;
+          margin-top: 0.6vmax;
+          font-family: Arial, Helvetica, sans-serif;
+}
+.AtlasSecurity .security .securityRight button{
+            padding: 0.4vmax 1vmax;
+            border: none;
+            color: #fff;
+            background-color: rgb(14, 94, 253);
+            font-weight: 500;
+            border-radius: 3px;
+          font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width:600px) {
+          .AtlasSecurity .security{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+          }
+          .AtlasSecurity .security .securityLeft{
+                    width: 90%;
+                    height: auto;
+                    display: flex;align-items: center;
+                    justify-content: center;
+          }
+          .AtlasSecurity .security .securityLeft img{
+                    width: 70%;
+                    height: auto;
+          }
+          .AtlasSecurity .security .securityRight{
+                    width: 90%;
+                    height: auto;
+          }
+          .AtlasSecurity .security .securityRight h1{
+                    font-size: 2.7vmax;
+          }
+          .AtlasSecurity .security .securityRight p{
+                    font-size: 2vmax;
+                    font-family: Arial, Helvetica, sans-serif;
+          }
+          .AtlasSecurity .security .securityRight button{
+                      padding: 1vmax 2vmax;
+                      font-weight: 500;
+          }
+}
+@media (min-width:600px) and (max-width:850px) {
+          .AtlasSecurity .security{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+          }
+}

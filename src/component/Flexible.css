@@ -1,0 +1,226 @@
+.flexiblemain{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vmax;
+}
+.flexiblemain .flexibleleft{
+    width: 35%;
+    padding-top: 1vmax;
+    padding-left: 2vmax;
+}
+.flexiblemain .flexibleleft h3{
+    font-size: 2.6vmax;
+    color: rgb(45, 45, 90);
+}
+.flexiblemain .flexibleleft p{
+    width: 90%;
+    margin-top: 2.2vmax;
+    
+}
+.flexiblemain .flexibleright{
+    width: 65%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+.flexiblemain .flexibleright .flexiblebox{
+    width: 45%;
+    background-color: rgb(255,255,255);
+    padding: 2.5vmax 0vmax;
+    padding-left: 3vmax;
+    margin-top: 2vmax;
+    margin-bottom: 2vmax;
+    box-shadow: 2px 2px 10px 2px rgb(231, 230, 230);
+}
+.flexiblemain .flexibleright .flexiblebox h5{
+    color: rgb(101, 113, 129);
+    font-size: 1.3vmax;
+}
+
+
+.notebookmain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3vmax;
+}
+.notebookmain .notebook{
+    width: 70%;
+    background-color: rgb(238, 236, 236);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4vmax 0vmax;
+}
+.notebookmain .notebook img{
+    width: 14%;
+    height: 14vmax;
+}
+.notebookmain .notebook .notebookright{
+    width: 50%;
+}
+.notebookmain .notebook .notebookright h2{
+    font-size: 2.5vmax;
+    color: rgb(13, 13, 70);
+}
+.notebookmain .notebook .notebookright button{
+    border: 1px solid blue;
+    color: rgb(63, 63, 214);
+    padding: 0.5vmax 1.5vmax;
+    font-weight: 700;
+    border-radius: 0.4vmax;
+    margin-top: 1.5vmax;
+}
+
+
+.extendmain{
+    width: 100%;
+    margin-top: 10vmax;
+}
+.extendmain .extendcontent{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.extendmain .extendcontent h6{
+   font-size: 0.9vmax;
+}
+.extendmain .extendcontent h2{
+    width: 50%;
+    font-size: 2.6vmax;
+    color: rgb(33, 33, 75);  
+}
+.extendmain .extendheader{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1vmax;
+}
+.extendmain .extendheader .extendheaderleft{
+    width: 40%;
+    text-align: center;
+}
+.extendmain .extendheader .extendheaderleft img{
+   width: 80%;
+   height: 24vmax;
+}
+.extendmain .extendheader .extendheaderright{
+    width: 40%;
+    box-shadow: 2px 2px 10px 2px rgb(231, 230, 230);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5.5vmax 0vmax;
+}
+.extendmain .extendheader .extendheaderright img{
+    width: 13%;
+    height: 5vmax;
+}
+.extendmain .extendheader .extendheaderright .extendheaderrightcontent{
+    width: 70%;
+}
+.extendmain .extendheader .extendheaderright .extendheaderrightcontent h3{
+    font-size: 1.7vmax;
+}
+.extendmain .extendheader .extendheaderright .extendheaderrightcontent h5{
+    font-size: 1.2vmax;
+    color: rgb(175, 175, 175);
+    font-weight: 400;
+    margin-top: 1vmax;
+}
+
+
+
+@media (max-width:600px) {
+    .flexiblemain{
+        flex-direction: column;
+    }
+    .flexiblemain .flexibleleft{
+        width: 90%;
+    }
+    .flexiblemain .flexibleleft h3{
+        font-size: 3.5vmax;
+    }
+    .flexiblemain .flexibleleft p{
+        width: 100%;
+        
+    }
+    .flexiblemain .flexibleright{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .flexiblemain .flexibleright .flexiblebox{
+        width: 90%;
+        padding: 4vmax 0vmax;
+        padding-left: 3vmax;
+    }
+    .flexiblemain .flexibleright .flexiblebox h5{
+        color: rgb(101, 113, 129);
+        font-size: 2vmax;
+    }
+    .notebookmain .notebook{
+        width: 90%;
+        flex-direction: column;
+    }
+    .notebookmain .notebook img{
+        width: 42%;
+        height: 25vmax;
+    }
+    .notebookmain .notebook .notebookright{
+        width: 80%;
+        margin-top: 3vmax;
+    }
+    .notebookmain .notebook .notebookright h2{
+        font-size: 2.8vmax;
+    }
+    .notebookmain .notebook .notebookright button{
+        padding: 0.8vmax 1.8vmax;
+    }
+
+    .extendmain .extendcontent h6{
+       font-size: 1.6vmax;
+    }
+    .extendmain .extendcontent h2{
+        width: 80%;
+        font-size: 3vmax;
+        margin-top: 1vmax; 
+    }
+    .extendmain .extendheader{
+        margin-top: 3vmax;
+        flex-direction: column;
+    }
+    .extendmain .extendheader .extendheaderleft{
+        width: 90%;
+    }
+    .extendmain .extendheader .extendheaderleft img{
+       width: 100%;
+       height: 30vmax;
+    }
+    .extendmain .extendheader .extendheaderright{
+        width: 90%;
+        padding: 5.5vmax 0vmax;
+        margin-top: 1vmax;
+    }
+    .extendmain .extendheader .extendheaderright img{
+        width: 16%;
+        height: 7vmax;
+    }
+    .extendmain .extendheader .extendheaderright .extendheaderrightcontent{
+        width: 75%;
+    }
+    .extendmain .extendheader .extendheaderright .extendheaderrightcontent h3{
+        font-size: 2vmax;
+    }
+    .extendmain .extendheader .extendheaderright .extendheaderrightcontent h5{
+        font-size: 1.8vmax;
+    }
+    
+}
