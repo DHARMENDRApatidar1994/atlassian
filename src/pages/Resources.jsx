@@ -3,7 +3,7 @@ import Navbar from '../component/Navbar'
 import Footer from '../component/Footer'
 import Getintouch from '../component/Getintouch'
 import Resourcesfirstpage from '../component/Resourcesfirstpage'
-import AtlasResources from '../component/AtlasResources'
+// import AtlasResources from '../component/AtlasResources'
 // import { useParams } from 'react-router-dom'
 
 const Resources = () => {
@@ -12,7 +12,7 @@ const Resources = () => {
     <div>
         <Navbar/>
         <Resourcesfirstpage/>
-        <AtlasResources/>
+        {/* <AtlasResources/> */}
         <Getintouch/>
         <Footer/>
     </div>
