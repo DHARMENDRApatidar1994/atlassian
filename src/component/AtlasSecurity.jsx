@@ -1,6 +1,6 @@
 import React from 'react'
 import "./AtlasSecurity.css"
-import AtlassecurityImg from "../assets/images/AtlasSecurity.webp"
+import AtlassecurityImg from "../assets/Images/AtlasSecurity.webp"
 
 const AtlasSecurity = () => {
   return (

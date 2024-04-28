@@ -1,12 +1,12 @@
 import React , {useState} from 'react'
 import "./Enterprise.css"
-import LeftImg from "../assets/images/EnterpriseLeft.webp"
-import Content1Img from "../assets/images/content1.png"
-import Content2Img from "../assets/images/content2.webp"
-import Content3Img from "../assets/images/content3.webp"
-import Contet4Img from "../assets/images/contet4.png"
-import Contet5Img from "../assets/images/content5.webp"
-import Contet6Img from "../assets/images/content6.webp"
+import LeftImg from "../assets/Images/EnterpriseLeft.webp"
+import Content1Img from "../assets/Images/content1.png"
+import Content2Img from "../assets/Images/content2.webp"
+import Content3Img from "../assets/Images/content3.webp"
+import Contet4Img from "../assets/Images/contet4.png"
+import Contet5Img from "../assets/Images/content5.webp"
+import Contet6Img from "../assets/Images/content6.webp"
 
 
 const Enterprise = () => {

@@ -6,7 +6,7 @@ import AtlasPricingSecond from '../component/AtlasPricingSecond'
 import Pricingthird from '../component/Pricingthird'
 import Frequently from '../component/Frequently'
 import PlansAndFeatures from '../component/PlansAndFeatures'
-// import AtlasContactUs from '../component/AtlasContactUs'
+import AtlasContactUs from '../component/AtlasContactUs'
 import Pricingad from '../component/Pricingad'
 import PricingAddOns from '../component/PricingAddOns'
 import Standard from '../component/Standard'
@@ -21,7 +21,7 @@ const Pricing = () => {
         <Pricingthird/>
         <PlansAndFeatures/>
         <Standard/>
-        {/* <AtlasContactUs/> */}
+        <AtlasContactUs/>
         <AtlasTableTwo/>
         <Pricingad/>
         <PricingAddOns/>

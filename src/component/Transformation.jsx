@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Transformation.css"
 // import transformation from "../assets/Images/Transformation.webp"
-import eyeLogo from "../assets/images/eyeLogo.webp"
-import uerLogo from "../assets/images/userLogo.webp"
-import valueLogo from "../assets/images/ValueLogo.webp"
+import eyeLogo from "../assets/Images/eyeLogo.webp"
+import uerLogo from "../assets/Images/userLogo.webp"
+import valueLogo from "../assets/Images/ValueLogo.webp"
 
 
 

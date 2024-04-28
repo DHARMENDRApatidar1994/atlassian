@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./AtlasResources.css";
-import ResourceImg1 from "../assets/images/AtlasResource1.png";
-import ResourceImg2 from "../assets/images/AtlasResource2.png";
-import ResourceImg3 from "../assets/images/AtlasResource3.png";
-import ResourceImg6 from "../assets/images/AtlasResource6.png";
-import ResourceImg5 from "../assets/images/AtlasResource5.png";
-import ResourceImg4 from "../assets/images/AtkasResource4.png";
+import ResourceImg1 from "../assets/Images/AtlasResource1.png";
+import ResourceImg2 from "../assets/Images/AtlasResource2.png";
+import ResourceImg3 from "../assets/Images/AtlasResource3.png";
+import ResourceImg6 from "../assets/Images/AtlasResource6.png";
+import ResourceImg5 from "../assets/Images/AtlasResource5.png";
+import ResourceImg4 from "../assets/Images/AtkasResource4.png";
 import { useNavigate } from "react-router-dom";
 
 const AtlasResources = () => {

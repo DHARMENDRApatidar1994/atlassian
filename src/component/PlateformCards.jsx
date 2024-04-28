@@ -1,7 +1,7 @@
 import React from 'react'
 import "./PlateformCards.css"
-import PlateformSecurity from "../assets/images/AtlasSecurity.webp"
-import PlateformImgOne from "../assets/images/PlateformImageone.svg"
+import PlateformSecurity from "../assets/Images/AtlasSecurity.webp"
+import PlateformImgOne from "../assets/Images/PlateformImageone.svg"
 
 const PlateformCards = () => {
   return (

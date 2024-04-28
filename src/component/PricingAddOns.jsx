@@ -1,8 +1,8 @@
 import React from 'react'
 import "./PricingAddOns.css"
-import AddOnsLogo1 from "../assets/images/AddOnsLogo1.svg"
-import AddOnsLogo2 from "../assets/images/AddOnsLogo2.svg"
-import AddOnsLogo3 from "../assets/images/AddOnsLogo3.svg"
+import AddOnsLogo1 from "../assets/Images/AddOnsLogo1.svg"
+import AddOnsLogo2 from "../assets/Images/AddOnsLogo2.svg"
+import AddOnsLogo3 from "../assets/Images/AddOnsLogo3.svg"
 
 
 const PricingAddOns = () => {

@@ -1,5 +1,5 @@
 import React from 'react'
-import agile from "../assets/images/agile.svg"
+import agile from "../assets/Images/agile.svg"
 
 const Console = () => {
   return (
