@@ -1,6 +1,6 @@
 import React from 'react'
 import "./AtlasLeader.css"
-import AtlasleaderImg from "../assets/images/AtlasLeader.webp"
+import AtlasleaderImg from "../assets/Images/AtlasLeader.webp"
 
 const AtlasLeader = () => {
   return (

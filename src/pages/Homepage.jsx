@@ -7,7 +7,7 @@ import Watchdemo from '../component/Watchdemo'
 import Enterprise from '../component/Enterprise'
 import Trusted from '../component/Trusted'
 import Flexible from '../component/Flexible'
-import AtlasLeader from '../component/AtlasLeader'
+// import AtlasLeader from '../component/AtlasLeader'
 import AtlasSecurity from '../component/AtlasSecurity'
 import AtlasForm from '../component/AtlasForm'
 
@@ -20,7 +20,7 @@ const Homepage = () => {
         <Watchdemo/>
         <Enterprise/>
         <Flexible/>
-        <AtlasLeader/>
+        {/* <AtlasLeader/> */}
         <Trusted/>
         <AtlasSecurity/>
         <AtlasForm/>
