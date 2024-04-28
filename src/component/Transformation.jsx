@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Transformation.css"
-// import transformation from "../assets/Images/Transformation.webp"
+import transformation from "../assets/Images/Transformation.webp"
 import eyeLogo from "../assets/Images/eyeLogo.webp"
 import uerLogo from "../assets/Images/userLogo.webp"
 import valueLogo from "../assets/Images/ValueLogo.webp"
@@ -32,7 +32,7 @@ const Transformation = () => {
                                         <p>Connect strategic investments with customer value created to drive outcomes faster and more reliably.</p>
                               </div>
                         </div>
-                        {/* <div className="right"><img src={transformation} alt="" /></div> */}
+                        <div className="right"><img src={transformation} alt="" /></div>
                     </div>
           </div>
     </div>
