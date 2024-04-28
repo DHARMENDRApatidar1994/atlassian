@@ -4,7 +4,7 @@ import Footer from '../component/Footer'
 import Unlock from '../component/Unlock'
 // import Transformation from '../component/Transformation'
 import Watchdemo from '../component/Watchdemo'
-import Enterprise from '../component/Enterprise'
+// import Enterprise from '../component/Enterprise'
 import Trusted from '../component/Trusted'
 import Flexible from '../component/Flexible'
 // import AtlasLeader from '../component/AtlasLeader'
@@ -18,7 +18,7 @@ const Homepage = () => {
         <Unlock/>
         {/* <Transformation/> */}
         <Watchdemo/>
-        <Enterprise/>
+        {/* <Enterprise/> */}
         <Flexible/>
         {/* <AtlasLeader/> */}
         <Trusted/>
