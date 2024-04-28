@@ -1,6 +1,6 @@
 import React from 'react'
 import "./AtlasContactUs.css"
-import PricingContact from "../assets/images/PricingAtlasContact.svg"
+import PricingContact from "../assets/Images/PricingAtlasContact.svg"
 
 function AtlasContactUs() {
   return (
