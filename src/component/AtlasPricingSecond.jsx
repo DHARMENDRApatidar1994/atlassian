@@ -1,6 +1,6 @@
 import React from 'react'
 import "./AtlasPricingSecond.css"
-import PricingSecond from "../assets/images/AtlasPricingSecondImage.svg"
+import PricingSecond from "../assets/Images/AtlasPricingSecondImage.svg"
 
 const AtlasPricingSecond = () => {
   return (
