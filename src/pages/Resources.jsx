@@ -4,7 +4,7 @@ import Footer from '../component/Footer'
 import Getintouch from '../component/Getintouch'
 import Resourcesfirstpage from '../component/Resourcesfirstpage'
 import AtlasResources from '../component/AtlasResources'
-import { useParams } from 'react-router-dom'
+// import { useParams } from 'react-router-dom'
 
 const Resources = () => {
   return (
